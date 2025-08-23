@@ -1,3 +1,7 @@
 export const Search = () => {
-  return <header>Dashboard Search</header>;
+  return (
+    <div style={{ width: '40%', float: 'left' }}>
+      <header>Dashboard Search</header>
+    </div>
+  );
 };
