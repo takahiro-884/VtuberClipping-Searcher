@@ -1,13 +1,11 @@
 import { Header } from "./components/sections/Header";
-import { Result } from "./components/sections/Result";
-import { Search } from "./components/sections/Search";
+import { Mainframe} from "./components/sections/Mainframe";
 
 export const Dashboards = () => {
   return (
     <>
       <Header />
-      <Search />
-      <Result />
+      <Mainframe />
     </>
   );
 };
