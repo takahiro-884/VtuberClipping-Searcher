@@ -10,7 +10,7 @@ import {
 import * as React from 'react';
 
 export const Header = () => {
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
 
   const handleClick = () => {
     setOpen(!open);
